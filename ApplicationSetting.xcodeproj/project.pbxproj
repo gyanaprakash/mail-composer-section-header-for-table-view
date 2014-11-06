@@ -10,10 +10,16 @@
 		BCE1D6701A0B4F6E00649C85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE1D66F1A0B4F6E00649C85 /* main.m */; };
 		BCE1D6731A0B4F6E00649C85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE1D6721A0B4F6E00649C85 /* AppDelegate.m */; };
 		BCE1D6761A0B4F6E00649C85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE1D6751A0B4F6E00649C85 /* ViewController.m */; };
-		BCE1D6791A0B4F6E00649C85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE1D6771A0B4F6E00649C85 /* Main.storyboard */; };
 		BCE1D67B1A0B4F6E00649C85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE1D67A1A0B4F6E00649C85 /* Images.xcassets */; };
 		BCE1D67E1A0B4F6E00649C85 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE1D67C1A0B4F6E00649C85 /* LaunchScreen.xib */; };
 		BCE1D68A1A0B4F6E00649C85 /* ApplicationSettingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE1D6891A0B4F6E00649C85 /* ApplicationSettingTests.m */; };
+		BCE1D6941A0B503D00649C85 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE1D6931A0B503D00649C85 /* ViewController.xib */; };
+		BCE1D6961A0B524600649C85 /* Untitled.png in Resources */ = {isa = PBXBuildFile; fileRef = BCE1D6951A0B524600649C85 /* Untitled.png */; };
+		BCE1D69F1A0B83FB00649C85 /* FeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE1D69D1A0B83FB00649C85 /* FeedBackViewController.m */; };
+		BCE1D6A01A0B83FB00649C85 /* FeedBackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE1D69E1A0B83FB00649C85 /* FeedBackViewController.xib */; };
+		BCE1D6A31A0B867B00649C85 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE1D6A21A0B867B00649C85 /* MessageUI.framework */; };
+		BCE1D6A61A0B97F800649C85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE1D6A51A0B97F800649C85 /* UIKit.framework */; };
+		BCE1D6A81A0B984200649C85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE1D6A71A0B984200649C85 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +40,19 @@
 		BCE1D6721A0B4F6E00649C85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BCE1D6741A0B4F6E00649C85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BCE1D6751A0B4F6E00649C85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BCE1D6781A0B4F6E00649C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCE1D67A1A0B4F6E00649C85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BCE1D67D1A0B4F6E00649C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BCE1D6831A0B4F6E00649C85 /* ApplicationSettingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplicationSettingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE1D6881A0B4F6E00649C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCE1D6891A0B4F6E00649C85 /* ApplicationSettingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplicationSettingTests.m; sourceTree = "<group>"; };
+		BCE1D6931A0B503D00649C85 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		BCE1D6951A0B524600649C85 /* Untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled.png; sourceTree = "<group>"; };
+		BCE1D69C1A0B83FB00649C85 /* FeedBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeedBackViewController.h; path = ../FeedBackViewController.h; sourceTree = "<group>"; };
+		BCE1D69D1A0B83FB00649C85 /* FeedBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeedBackViewController.m; path = ../FeedBackViewController.m; sourceTree = "<group>"; };
+		BCE1D69E1A0B83FB00649C85 /* FeedBackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FeedBackViewController.xib; path = ../FeedBackViewController.xib; sourceTree = "<group>"; };
+		BCE1D6A21A0B867B00649C85 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		BCE1D6A51A0B97F800649C85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCE1D6A71A0B984200649C85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +60,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCE1D6A81A0B984200649C85 /* Foundation.framework in Frameworks */,
+				BCE1D6A61A0B97F800649C85 /* UIKit.framework in Frameworks */,
+				BCE1D6A31A0B867B00649C85 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +79,8 @@
 		BCE1D6611A0B4F6E00649C85 = {
 			isa = PBXGroup;
 			children = (
+				BCE1D6A11A0B85FE00649C85 /* Feed Back */,
+				BCE1D6A41A0B86D600649C85 /* frame work */,
 				BCE1D66C1A0B4F6E00649C85 /* ApplicationSetting */,
 				BCE1D6861A0B4F6E00649C85 /* ApplicationSettingTests */,
 				BCE1D66B1A0B4F6E00649C85 /* Products */,
@@ -85,9 +103,10 @@
 				BCE1D6721A0B4F6E00649C85 /* AppDelegate.m */,
 				BCE1D6741A0B4F6E00649C85 /* ViewController.h */,
 				BCE1D6751A0B4F6E00649C85 /* ViewController.m */,
-				BCE1D6771A0B4F6E00649C85 /* Main.storyboard */,
+				BCE1D6931A0B503D00649C85 /* ViewController.xib */,
 				BCE1D67A1A0B4F6E00649C85 /* Images.xcassets */,
 				BCE1D67C1A0B4F6E00649C85 /* LaunchScreen.xib */,
+				BCE1D6951A0B524600649C85 /* Untitled.png */,
 				BCE1D66D1A0B4F6E00649C85 /* Supporting Files */,
 			);
 			path = ApplicationSetting;
@@ -117,6 +136,28 @@
 				BCE1D6881A0B4F6E00649C85 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCE1D6A11A0B85FE00649C85 /* Feed Back */ = {
+			isa = PBXGroup;
+			children = (
+				BCE1D69C1A0B83FB00649C85 /* FeedBackViewController.h */,
+				BCE1D69D1A0B83FB00649C85 /* FeedBackViewController.m */,
+				BCE1D69E1A0B83FB00649C85 /* FeedBackViewController.xib */,
+			);
+			name = "Feed Back";
+			path = ApplicationSetting;
+			sourceTree = "<group>";
+		};
+		BCE1D6A41A0B86D600649C85 /* frame work */ = {
+			isa = PBXGroup;
+			children = (
+				BCE1D6A71A0B984200649C85 /* Foundation.framework */,
+				BCE1D6A51A0B97F800649C85 /* UIKit.framework */,
+				BCE1D6A21A0B867B00649C85 /* MessageUI.framework */,
+			);
+			name = "frame work";
+			path = ApplicationSetting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +240,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCE1D6791A0B4F6E00649C85 /* Main.storyboard in Resources */,
+				BCE1D6961A0B524600649C85 /* Untitled.png in Resources */,
 				BCE1D67E1A0B4F6E00649C85 /* LaunchScreen.xib in Resources */,
+				BCE1D6A01A0B83FB00649C85 /* FeedBackViewController.xib in Resources */,
+				BCE1D6941A0B503D00649C85 /* ViewController.xib in Resources */,
 				BCE1D67B1A0B4F6E00649C85 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +265,7 @@
 				BCE1D6761A0B4F6E00649C85 /* ViewController.m in Sources */,
 				BCE1D6731A0B4F6E00649C85 /* AppDelegate.m in Sources */,
 				BCE1D6701A0B4F6E00649C85 /* main.m in Sources */,
+				BCE1D69F1A0B83FB00649C85 /* FeedBackViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +288,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BCE1D6771A0B4F6E00649C85 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BCE1D6781A0B4F6E00649C85 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BCE1D67C1A0B4F6E00649C85 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

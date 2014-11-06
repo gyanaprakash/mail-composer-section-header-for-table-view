@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FeedBackViewController.h"
+@interface ViewController : UIViewController <UITableViewDataSource,UITableViewDelegate>
 
-@interface ViewController : UIViewController
+//*******************************************************************************************************************
 
+
+@property (weak, nonatomic) IBOutlet UITableView *settingTable;
+@property (strong, nonatomic) IBOutlet UITableViewCell *headercell;
+@property (strong, nonatomic) IBOutlet UITableViewCell *accountSettingHeader;
+
+//*******************************************************************************************************************
 
 @end
 
