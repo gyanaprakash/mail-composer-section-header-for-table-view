@@ -80,8 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				BCE1D6A11A0B85FE00649C85 /* Feed Back */,
-				BCE1D6A41A0B86D600649C85 /* frame work */,
 				BCE1D66C1A0B4F6E00649C85 /* ApplicationSetting */,
+				BCE1D66D1A0B4F6E00649C85 /* Supporting Files */,
+				BCE1D6A41A0B86D600649C85 /* frame work */,
 				BCE1D6861A0B4F6E00649C85 /* ApplicationSettingTests */,
 				BCE1D66B1A0B4F6E00649C85 /* Products */,
 			);
@@ -107,7 +108,6 @@
 				BCE1D67A1A0B4F6E00649C85 /* Images.xcassets */,
 				BCE1D67C1A0B4F6E00649C85 /* LaunchScreen.xib */,
 				BCE1D6951A0B524600649C85 /* Untitled.png */,
-				BCE1D66D1A0B4F6E00649C85 /* Supporting Files */,
 			);
 			path = ApplicationSetting;
 			sourceTree = "<group>";
@@ -119,6 +119,7 @@
 				BCE1D66F1A0B4F6E00649C85 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = ApplicationSetting;
 			sourceTree = "<group>";
 		};
 		BCE1D6861A0B4F6E00649C85 /* ApplicationSettingTests */ = {

@@ -10,6 +10,7 @@
 
 @interface FeedBackViewController ()
 
+
 @end
 
 @implementation FeedBackViewController
@@ -42,16 +43,18 @@
     }
     else if (button.tag == 2)
     {
-        MFMailComposeViewController *comp=[[MFMailComposeViewController alloc]init];
-        [comp setMailComposeDelegate:self];
         if([MFMailComposeViewController canSendMail])
         {
+            MFMailComposeViewController *comp=[[MFMailComposeViewController alloc]init];
+            [comp setMailComposeDelegate:self];
+
             [comp setToRecipients:[NSArray arrayWithObjects:self.toMailTextFld.text , nil]];
             [comp setCcRecipients:[NSArray arrayWithObjects:self.ccMailTextField.text, nil]];
             [comp setSubject:self.subjectMailTextFld.text];
             [comp setMessageBody:self.messageBodyTextView.text isHTML:NO];
             [comp setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
-            [self popoverPresentationController];
+            [self presentViewController:comp animated:YES completion:nil];
+
         }
         else
         {
@@ -64,16 +67,26 @@
 
 //*******************************************************************************************************************
 
--(void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error{
-    if(error)
+- (void) mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error
+{
+    switch (result)
     {
-        UIAlertView *alrt=[[UIAlertView alloc]initWithTitle:@"Please check your" message:@"internet connection" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
-        [alrt show];
+        case MFMailComposeResultCancelled:
+            NSLog(@"Mail cancelled");
+            break;
+        case MFMailComposeResultSaved:
+            NSLog(@"Mail saved");
+            break;
+        case MFMailComposeResultSent:
+            NSLog(@"Mail sent");
+            break;
+        case MFMailComposeResultFailed:
+            NSLog(@"Mail sent failure: %@", [error localizedDescription]);
+            break;
+        default:
+            break;
     }
-    else
-    {
-       
-    }
-    
+    // Close the Mail Interface
+    [self dismissViewControllerAnimated:YES completion:NULL];
 }
 @end
